@@ -77,8 +77,14 @@ Templates are files that display static and dynamic content to users who visit y
 
 #
     sudo bash start.sh
+    
+#to verify that docker is running
+
     sudo docker ps
-    sudo start docker.tedt15
+    
+#if nor running, start it
+
+    sudo start docker.test15
 
 ***
 
