@@ -84,7 +84,7 @@ Templates are files that display static and dynamic content to users who visit y
     
 #if nor running, start it
 
-    sudo start docker.test15
+    sudo docker start docker.test15
 
 ***
 
@@ -98,5 +98,5 @@ Templates are files that display static and dynamic content to users who visit y
 
 #If we were developed our app withing the same local directory, we would have just stop and restart the Docker containers
 
-    sudo docker stop docker.test && sudo docker start docker.test
+    sudo docker stop docker.test15 && sudo docker start docker.test15
 
